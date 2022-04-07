@@ -1,0 +1,20 @@
+{
+  "name": "code1",
+  "version": "1.0.0",
+  "description": "complete nodejs",
+  "main": "node1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node1.js",
+    "start-server": "node node1.js"
+  },
+  "author": "mohan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3"
+  }
+}
